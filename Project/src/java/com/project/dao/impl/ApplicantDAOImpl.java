@@ -133,6 +133,7 @@ public class ApplicantDAOImpl  implements ApplicantDAO{
                 Job job=new Job();
                 job.setJobTitle(rs.getString("job_title"));
                 applicant.setJob(job);
+                
                 applicant.setLastName(rs.getString("last_name"));
                 applicant.setRemarks(rs.getString("remarks"));
                 applicant.setResume(rs.getString("resume"));
